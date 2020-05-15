@@ -1,0 +1,33 @@
+urxvt*foreground: rgb:a6/e2/2e
+urxvt*background: rgb:08/08/08
+urxvt*termName: rxvt-256color
+urxvt*font: xft:Source Code Pro-10:hinting=True;antialias=True;
+urxvt*boldFont: xft:Source Code Pro-10:hinting=True;antialias=True;
+urxvt.perl-ext-common: default,matcher,fullscreen
+urxvt.url-launcher: /usr/bin/xdg-open
+urxvt.matcher.button: 1
+urxvt.keysym.F11: perl:fullscreen:switch
+
+urxvt*scrollBar_right: false
+urxvt*scrollBar: false
+urxvt*urgentOnBell: true
+urxvt*cursorBlink: true
+urxvt*tabbed.tabbar-bg: -1
+
+UXTerm*foreground: rgb:a6/e2/2e
+UXTerm*background: rgb:08/08/08
+UXTerm*termName: xterm-256color
+UXTerm*faceName: Source Code Pro:size=10:antialias=true
+UXTerm*vt100*translations:   #override                       \n \
+    Shift Ctrl <KeyPress>C: copy-selection(CLIPBOARD)       \n \
+    Shift Ctrl <KeyPress>V: insert-selection(CLIPBOARD)     \n \
+    Shift Ctrl <Key>N:      spawn-new-terminal()            \n
+
+XTerm*foreground: rgb:a6/e2/2e
+XTerm*background: rgb:08/08/08
+XTerm*termName: xterm-256color
+XTerm*faceName: Source Code Pro:size=10:antialias=true
+XTerm*vt100*translations:   #override                       \n \
+    Shift Ctrl <KeyPress>C: copy-selection(CLIPBOARD)       \n \
+    Shift Ctrl <KeyPress>V: insert-selection(CLIPBOARD)     \n \
+    Shift Ctrl <Key>N:      spawn-new-terminal()            \n
